@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0135/v1
 canonical_location: https://kanripo.org/bkk/KR6i0135/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說隨勇尊者經
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0135_000.yaml, hash: 'sha256:8d646718f88ac5429b0565609fe84bd5d46182d7e25ac95688a7455eed97fd91'}
-  - {seq: 1, filename: KR6i0135_001.yaml, hash: 'sha256:278deccfacc8b573037b6a23159cd48f2edf7552f5d91a14bfd2ea325da1cd25'}
+  - {seq: 1, filename: KR6i0135_001.yaml, hash: 'sha256:c094326faac7f2a4c76fdcbf7a986e1790003c4651cd4d318698ceef364bd063'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0135_000.markers.yaml, hash: 'sha256:fa1fd09a3e3952a35cb7e3bdbbf4f5786a0764367f80ecd3574105b8584b01f5'}
-  - {seq: 1, role: markers, filename: assets/KR6i0135_001.markers.yaml, hash: 'sha256:4caddc865b3e8d4404e502cb2cb4179cfbffe37179c4a57653f9ee787cbe8c55'}
+  - {seq: 1, role: markers, filename: assets/KR6i0135_001.markers.yaml, hash: 'sha256:8efd9b5ef579e3cbe126b679b2eefca7fa23ee51a9aa7a752471a9ccfbfdbf4e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 佛說隨勇尊者經
   type: juan
   level: 1
-hash: sha256:fb69c9bc1d3ca1f81de9dd07144ae9d3dba313571490d347f5aa0d29455ce0fc
+hash: sha256:0f3fc6ce3548d03b84ee8e9bdcf4fae7940e34e202f69e690d79725efd8fdb94
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
